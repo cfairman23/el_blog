@@ -27,9 +27,6 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-# make errors better looking
-gem 'better_errors', '~> 2.4'
-
 # A modern CSS framework based on Flexbox
 gem 'bulma-rails', '~> 0.7.1'
 
@@ -61,6 +58,8 @@ group :development do
   gem 'guard', '~> 2.14', '>= 2.14.2'
   # Guard::LiveReload automatically reloads your browser when 'view' files are modified.
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+  # make errors better looking
+gem 'better_errors', '~> 2.4'
 end
 
 group :test do
